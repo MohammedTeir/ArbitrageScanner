@@ -1,0 +1,29 @@
+{
+  "name": "ArbitrageBot",
+  "version": "1.0.0",
+  "description": "A Node.js Telegram bot that scans for cryptocurrency arbitrage opportunities and notifies users.",
+  "main": "src/bot.js",
+  "scripts": {
+  "start": "node src/bot.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+     "arbitrage",
+    "cryptocurrency",
+    "telegram-bot",
+    "nodejs",
+    "trading"],
+  "author": "zer0Hax",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.7.7",
+    "compression": "^1.7.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
